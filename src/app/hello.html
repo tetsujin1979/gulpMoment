@@ -1,0 +1,7 @@
+<div>
+	<input type="radio" value="es" ng-model="$ctrl.language" ng-change="$ctrl.changeLanguage()">Spanish</input>
+	<input type="radio" value="fr" ng-model="$ctrl.language" ng-change="$ctrl.changeLanguage()">French</input>
+	<input type="radio" value="de" ng-model="$ctrl.language" ng-change="$ctrl.changeLanguage()">German</input>
+	<input type="radio" value="en" ng-model="$ctrl.language" ng-change="$ctrl.changeLanguage()">English</input>
+	<div>{{$ctrl.time | amDateFormat:'dddd, MMMM Do YYYY, h:mm:ss a'}}</div>
+</div>
